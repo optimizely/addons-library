@@ -1,0 +1,55 @@
+{
+  "plugin_type": "widget",
+  "name": "Extension Template",
+  "edit_page_url": "www.optimizely.com",
+  "form_schema": [
+    {
+      "default_value": "append",
+      "field_type": "dropdown",
+      "name": "position",
+      "label": "Position",
+      "options": {
+        "choices": [
+          {
+            "value": "beforebegin",
+            "label": "Before"
+          },
+          {
+            "value": "afterend",
+            "label": "After"
+          },
+          {
+            "value": "afterbegin",
+            "label": "At Beginning"
+          },
+          {
+            "value": "beforeend",
+            "label": "At End Of"
+          }
+        ]
+      }
+    },
+    {
+      "default_value": "",
+      "field_type": "selector",
+      "name": "selector",
+      "label": "Selector",
+      "options": null
+    },
+    {
+      "default_value": "Title Text",
+      "field_type": "text",
+      "name": "title",
+      "label": "title",
+      "options": null
+    },
+    {
+      "default_value": "Text",
+      "field_type": "text",
+      "name": "text",
+      "label": "text",
+      "options": null
+    }
+  ],
+  "description": ""
+}
